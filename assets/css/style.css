@@ -1,0 +1,181 @@
+/* Universal Selector */
+* {
+  margin:0;
+  padding:0;  
+}
+
+.fa-person-biking {
+  margin-right: 1em;
+}
+
+nav li{
+  display: inline;
+  margin-right: 12px;
+}
+
+nav a:hover {
+  border: 1px solid #F22613;
+  color:#F22613;
+  border-radius: 5px;
+}
+
+figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 75%;
+}
+button {
+  height: 35px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 120px;
+  background-color: black;
+  color: #FDF8F5;
+}
+
+body {
+  position: relative;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 20px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+h1,
+h2 {
+  margin: 20px;
+}
+
+main {
+  padding: 60px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #FDF8F5;
+}
+
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: #000000;
+}
+
+header {
+  position: fixed;
+  border-bottom: 10px solid #000000;
+}
+
+footer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  bottom: 0;
+  border-bottom: 10px solid #F22613;
+  color: #FDF8F5;    
+}
+
+.copyright {
+  margin-right: 12px;
+}
+.vroom {
+  text-decoration-line: line-through;
+  text-decoration-style: wavy;
+  color: white;
+  margin-right: 12px;
+}
+
+footer span{
+  align-self: center;
+}
+
+figure {
+  margin-bottom: 40px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+}
+
+.contact {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  border-top: 3px solid #F22613;
+  background-color:  #E8CEBF;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact h2, .contact form {
+  display: flex;
+  width: 30%;
+  padding: 10px;
+  margin: 0 auto;
+  border: 2px solid #F22613;
+  border-radius: 20px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.contact h2 {
+  text-align: center;
+  border-bottom:0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.contact form {
+  border-top:0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.contact button {
+  text-justify:auto;
+  align-self: center;
+}
+
+.contact button:hover, .contact button:focus {
+  background-color: #F22613;
+}
+
+.contact button:hover span, .contact button:focus span {
+  color: #000000;
+}
+
+.contact label {
+  display: flex;
+  align-self: flex-start;
+  margin-top: 8px;
+  margin-left: 4px;
+  width: 100%;
+}
+  
+.contact input, 
+.contact textarea {
+  text-align: center;
+  margin: 4px;
+  margin-right: 4px;
+  width: 98%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #FFFFFF
+}
+
+.contact input {
+  box-shadow: 4px 4px 10px #F22613;
+}
+ 
+/* Class Selectors */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
