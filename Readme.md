@@ -42,7 +42,7 @@ I would like to thank my kittens for the timely distractions to support proper p
 
 ## License
 
-This project is licensed with the "Unlicense" license. [(Read unlicense details)](..LICENSE)
+This project is licensed with the "Unlicense" license. [(Read unlicense details)](LICENSE)
 
 ## How to Contribute
 
