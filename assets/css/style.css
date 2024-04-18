@@ -4,27 +4,34 @@
   padding:0;  
 }
 
-.fa-person-biking {
-  margin-right: 1em;
+/* need to give our swim, bike, run icon a bit more room on the right*/
+.fa-person-biking, .fa-person-running, .fa-person-drowning {
+  margin-right: .5em;
 }
 
+/* align the nav list items so they have space */
 nav li{
   display: inline;
   margin-right: 12px;
 }
 
+/* give the nav links and orange rounded border
+   when hovering over them
+*/
 nav a:hover {
   border: 1px solid #F22613;
   color:#F22613;
   border-radius: 5px;
 }
 
+/* center the figure caption text */
 figcaption {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 75%;
+  text-align: center;  
 }
+
+/* style the submit button for the contact form
+   with black/orange theme and sizing
+*/
 button {
   height: 35px;
   margin-top: 10px;
@@ -42,46 +49,54 @@ body {
   color: #000000;
 }
 
-h1,
-h2 {
-  margin: 20px;
+/* general style for heading 1 and 2 */
+h1, h2 {
+  margin: 30px;
 }
 
 main {
   padding: 60px 0;
 }
 
+/* give all links no underline and a light color text */
 a {
   text-decoration: none;
   color: #FDF8F5;
 }
 
+/* size the header and footer and make them black */
 header,
 footer {
   height: 60px;
   width: 100%;
   line-height: 60px;
   background-color: #000000;
+  border-bottom: 10px solid #F22613;
 }
 
+/* make the header stay at the top */
 header {
   position: fixed;
-  border-bottom: 10px solid #000000;
 }
 
+/* place footer at the bottom, center content,
+   and set color
+*/
 footer {
   position: absolute;
   display: flex;
   justify-content: center;
   margin-top: 0;
   bottom: 0;
-  border-bottom: 10px solid #F22613;
   color: #FDF8F5;    
 }
 
+/*give copyright some space */
 .copyright {
   margin-right: 12px;
 }
+
+/* make some watery looking icon for swim */
 .vroom {
   text-decoration-line: line-through;
   text-decoration-style: wavy;
@@ -93,6 +108,7 @@ footer span{
   align-self: center;
 }
 
+/* need more space below the figure */
 figure {
   margin-bottom: 40px;
 }
@@ -102,6 +118,7 @@ img {
   margin: 20px auto;
 }
 
+/* the main contact section styling */
 .contact {
   margin-bottom: 0;
   padding: 20px 10px 40px 10px;
@@ -111,6 +128,7 @@ img {
   flex-direction: column;
 }
 
+/* common styling for the form and h2 elements in the contact section */
 .contact h2, .contact form {
   display: flex;
   width: 30%;
@@ -122,6 +140,7 @@ img {
   flex-wrap: nowrap;
 }
 
+/* more specific styling for the contact h2 element */
 .contact h2 {
   text-align: center;
   border-bottom:0px;
@@ -129,25 +148,26 @@ img {
   border-bottom-right-radius: 0px;
 }
 
+/* more specific styling for the contact form element */
 .contact form {
   border-top:0px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
 }
 
+/* more specific styling for the contact button */
 .contact button {
   text-justify:auto;
   align-self: center;
 }
 
+/* styling for button hover and focus to swap the black/orange */
 .contact button:hover, .contact button:focus {
   background-color: #F22613;
+  color: black;
 }
 
-.contact button:hover span, .contact button:focus span {
-  color: #000000;
-}
-
+/* style the labels in the contact form */
 .contact label {
   display: flex;
   align-self: flex-start;
@@ -156,6 +176,7 @@ img {
   width: 100%;
 }
   
+/* style the input/text box in the contact form */
 .contact input, 
 .contact textarea {
   text-align: center;
@@ -167,11 +188,11 @@ img {
   border: 1px solid #FFFFFF
 }
 
+/* give the input a nice faded orange drop shadow */
 .contact input {
   box-shadow: 4px 4px 10px #F22613;
 }
- 
-/* Class Selectors */
+
 .text-center {
   text-align: center;
 }

@@ -4,16 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <!-- import font-awesome fonts to use for the bike/run -->
     <link
       rel="stylesheet"
       type="text/css"
       href="./assets/icons/css/solid.min.css"
     />
+    <!-- import our own css for styling -->
     <link href="./assets/icons/css/fontawesome.css" rel="stylesheet" />
-    <title>My Landing Page</title>
+    <title>Tri Everything Landing Page</title>
+    <script>
+      function a() {
+        alert("Stop doing that!");
+      }
+    </script>
   </head>
 
   <body>
+    <!-- define a nav bar in the header with links to github, in document portfolio
+         and in document contact form. Currently they are dead ends because we haven't
+         unlocked that level of fun, yet!
+     -->
     <header>
       <nav class="text-right">
         <ul>
@@ -25,20 +36,24 @@
     </header>
 
     <main>
-      <h1 class="text-center">A Triathlon Guy Takes on Another Challenge</h1>
+      <h1 class="text-center">A Triathlon Guy Writes Code</h1>
+      <!-- Hey this is still a work in progress so display an image saying so -->
       <figure>
         <img
           src="./assets/images/coming_soon.png"
           alt="Graphic with Coming Soon text"
         />
+        <!-- some random stuff to add a bit more content to the page -->
         <figcaption class="text-center">
           Boring hours of lap swims at the pool or picking green things out of
           the teeth after a lake swim. Endless hours riding back roads on the TT
           bike. Running out in the country, avoiding dogs and injury.
         </figcaption>
       </figure>
+      <!-- the contact section of the page for submitting contact info -->
       <section id="contact" class="contact">
         <h2>Contact Me</h2>
+        <!-- a form with input for name and email -->
         <form>
           <label class="text-right" for="name">Name:</label>
           <input
@@ -59,16 +74,18 @@
             aria-placeholder="Your Email Address"
           />
 
-          <button type="submit">
+          <button type="submit" onclick="a()">
             <span class="fa-solid fa-person-biking"></span>SEND
           </button>
         </form>
       </section>
     </main>
+    <!-- the page footer -->
     <footer class="text-center">
       <p class="copyright">© 2024</p>
-      <p class="vroom">..........</p>
+      <span class="fa-solid fa-person-drowning"></span>
       <span class="fa-solid fa-person-biking"></span>
+      <span class="fa-solid fa-person-running"></span>
       <p>Tri Everything Productions</p>
     </footer>
   </body>
