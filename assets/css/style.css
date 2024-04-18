@@ -27,6 +27,7 @@ nav a:hover {
 /* center the figure caption text */
 figcaption {
   text-align: center;  
+  height: 100px;
 }
 
 /* style the submit button for the contact form
